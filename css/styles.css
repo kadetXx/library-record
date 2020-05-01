@@ -61,7 +61,7 @@ input[type = text] {
 }
 
 input[type = text]:focus {
-  outline-color: rgb(202, 236, 210);
+  outline-color: rgb(161, 173, 230);
 }
 
 /*------------- BUTTON STYLING -------------*/
@@ -106,4 +106,26 @@ th, td {
   .container {
     margin: 0 20%;
   }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem 1.5rem;
+  }
+
+  .alert-box p {
+    margin: 2% 1%;
+  }
+
+  input[type = text] {
+    border-radius: 3px;
+    margin: 0.2rem 0 0;
+    padding: 2% 1%;
+  }
+ 
+  .submit-button {
+    margin: 0.8rem 0;
+    padding: 2.5% 0;
+  }
+
 }
