@@ -76,6 +76,10 @@ input[type = text]:focus {
   padding: 2% 0;
 }
 
+.submit-button:focus {
+  outline: none;
+}
+
 
 /*------------- TABLE STYLING -------------*/
 
@@ -110,7 +114,7 @@ th, td {
 
 @media (max-width: 600px) {
   body {
-    padding: 1rem 1.5rem;
+    padding: 1rem 1.8rem;
   }
 
   .alert-box p {
