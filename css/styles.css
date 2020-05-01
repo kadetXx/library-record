@@ -1,0 +1,109 @@
+/*------------- MAIN STYLING -------------*/
+
+body {
+  margin: 0;
+  padding: 1rem 3rem;
+  color: rgb(91, 92, 102);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+/*------------- Alert STYLING -------------*/
+
+.alert-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.alert-box {
+  background-color: var(--alert-background, black);
+  border-radius: 3px;
+  color: var(--alert-text-color, white);
+  width: 100%;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.alert-box p {
+  margin: 1.5% 1%;
+}
+
+
+/*------------- FORM STYLING -------------*/
+.input-form {
+  width: 100%;
+  margin: 1rem 0 3rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-weight: 600;
+}
+
+input[type = text] {
+  border: 1px solid lightgrey;
+  border-radius: 0.01rem;
+  margin: 0.2rem 0 0;
+  padding: 1.5% 1%;
+}
+
+input[type = text]:focus {
+  outline-color: rgb(202, 236, 210);
+}
+
+/*------------- BUTTON STYLING -------------*/
+
+.submit-button {
+  background-color: rgb(67, 68, 75);
+  border: 1px solid white;
+  border-radius: 3px;
+  color: white;
+  width: 100%;
+  margin: 0.8rem 0;
+  padding: 2% 0;
+}
+
+
+/*------------- TABLE STYLING -------------*/
+
+.output-table {
+  display: flex;
+  justify-content: stretch;
+}
+
+table {
+  text-align: left;
+  width: 100%;
+  table-layout: fixed;
+  overflow-wrap: break-word;
+}
+
+table, tr {
+  border-bottom: 1px solid lightgrey;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.7rem 2%;
+}
+
+/*------------- RESPONSIVE STYLING -------------*/
+
+@media (min-width: 900px) {
+  .container {
+    margin: 0 20%;
+  }
+}

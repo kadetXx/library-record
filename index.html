@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Library Records</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="heading">Library Records</h1>
+    </div>
+    <div class="alert-container">
+      <!-- <div class="alert-box">
+        <p class="alert-message">Wrong input</p>
+      </div> -->
+    </div>
+    <div class="input-form">
+      <form id="book-form">
+        <label for="book-title"> Title: <br>
+          <input type="text" name="book-name" class="book-title">
+        </label>
+        <br>
+        <label for="book-author"> Author: <br>
+          <input type="text" name="book-author" class="book-author">
+        </label>
+        <br>
+        <label for="book-isbn"> ISBN: <br>
+          <input type="text" name="book-isbn" class="book-isbn">
+        </label>
+        <br>
+        <input type="submit" value="Add Book" class="submit-button">
+      </form>
+    </div>
+    <div class="output-table">
+      <table class="book-table">
+        <col style="width: 40%;">
+        <col style="width: 40%;">
+        <col style="width: 20%;">
+        <col style="width: 10%;">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- <tr>
+            <td>Encyclopedia</td>
+            <td>John doe</td>
+            <td>1294</td>
+            <td><a href="#">x</a></td>
+          </tr>
+          <tr>
+            <td>Encyclopedia</td>
+            <td>John doe</td>
+            <td>1294</td>
+            <td><a href="#">x</a></td>
+          </tr> -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+<script src="js/app.js"></script>
+</body>
+
+</html>
